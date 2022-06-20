@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net472</TargetFramework>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="Streamer.bot">
+      <Private>false</Private>
+      <HintPath>..\..\..\AppData\Local\Programs\Streamer.bot\0.1.7\Streamer.bot.exe</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>
