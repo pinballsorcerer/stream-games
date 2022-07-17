@@ -35,7 +35,7 @@ namespace Pinball
             
             T HasWinner(string winner);
 
-            T HasWinners(HashSet<string> winner);
+            T HasWinners(HashSet<string> winners);
         }
 
         public class NoEntries : IState
